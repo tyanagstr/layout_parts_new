@@ -2,4 +2,45 @@
 
 /* 回答はここに書いてね */
 
+.q3__content {
+  width: 100%;
+}
+
+.q3__table {
+  width: 100%;
+  table-layout: fixed;
+  border: 1px solid #dedede;
+  text-align: center;
+}
+
+/* セル共通の設定 */
+.q3__table th,
+.q3__table td {
+  line-height: 26px;
+  padding: 10px;
+  border: 1px solid #dedede;
+  vertical-align: middle;
+}
+
+/* 見出しのスタイル */
+.q3__table__header__row > th,
+.q3__table__body__row > th {
+  background-color: #2244aa;
+  font-size: 18px;
+  color: #fff;
+}
+
+/* ボディの偶数行に色を付ける */
+.q3__table__body__row:nth-of-type(even) {
+  background-color: #ecf1f2
+}
+
+/* 最終行の上を点線に */
+.q3__table__body
+.q3__table__body__row:last-child {
+  border-top: 2px dashed #000;
+}
+
+
+
 /* 回答はここに書いてね */
