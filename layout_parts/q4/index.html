@@ -1,14 +1,23 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
-    <meta name="format-detection" content="telephone=no">
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"
+    />
+    <meta name="format-detection" content="telephone=no" />
     <title>基本レイアウト・パーツ</title>
-    <link rel="stylesheet" href="http://gizumo-inc.github.io/sample/front-lesson/layout_parts_new/assets/css/reset.css">
-    <link rel="stylesheet" href="http://gizumo-inc.github.io/sample/front-lesson/layout_parts_new/assets/css/base.css">
-    <link rel="stylesheet" href="css/style.css">
+    <link
+      rel="stylesheet"
+      href="http://gizumo-inc.github.io/sample/front-lesson/layout_parts_new/assets/css/reset.css"
+    />
+    <link
+      rel="stylesheet"
+      href="http://gizumo-inc.github.io/sample/front-lesson/layout_parts_new/assets/css/base.css"
+    />
+    <link rel="stylesheet" href="css/style.css" />
   </head>
   <body>
     <div class="wrapper">
@@ -33,16 +42,34 @@
         <!-- 回答はクラスq4の要素の中に書いてね -->
         <!-- すでについてるクラスにはstyleを指定しない。styleをつける場合は自分で新たにクラスをつけること -->
         <!-- 新たにタグは追加しなくてもできます。 -->
-        <div class="q4">
-          <div>
-            <div>固定</div>
-            <div>可変</div>
-            <div>固定</div>
+        <div class="q4 q4-content-wrapper">
+          <div class="content-block">
+            <div
+              class="content-block__box content-block__box--fiexd content-block__box--pink">
+              固定
+            </div>
+            <div
+              class="content-block__box content-block__box--variable content-block__box--purple">
+              可変
+            </div>
+            <div
+              class="content-block__box content-block__box--fiexd content-block__box--cyan">
+              固定
+            </div>
           </div>
-          <div>
-            <div>可変</div>
-            <div>可変</div>
-            <div>固定</div>
+          <div class="content-block2">
+            <div
+              class="content-block2__box content-block2__box--variable content-block2__box--yellow">
+              可変
+            </div>
+            <div
+              class="content-block2__box content-block2__box--variable content-block2__box--red">
+              可変
+            </div>
+            <div
+              class="content-block2__box content-block2__box--fiexd content-block2__box--green">
+              固定
+            </div>
           </div>
         </div>
         <!-- 回答はクラスq4の要素の中に書いてね -->
