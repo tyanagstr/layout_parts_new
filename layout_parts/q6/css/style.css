@@ -2,4 +2,29 @@
 
 /* 回答はここに書いてね */
 
+:root {
+  --subbox-color: #e6f2ff;
+}
+
+/* text-alignによる左右中央揃え */
+.q6__box.q6__box_wrapper {
+  text-align: center;
+}
+.q6__box_text {
+  display: inline-block;
+  background-color: var(--subbox-color);
+  text-align: center;
+  width: 90px;
+  padding: 10px 0;
+}
+
+/* marginによる左右中央揃え */
+.q6__box__text {
+  padding: 10px 0;
+  text-align: center;
+  width: 90px;
+  margin: auto; /* 固定幅のインライン要素に対して auto を設定して中央揃え */
+  background-color: var(--subbox-color);
+}
+
 /* 回答はここに書いてね */
