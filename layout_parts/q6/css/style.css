@@ -27,4 +27,60 @@
   background-color: var(--subbox-color);
 }
 
+
+/* display:table による天地左右中央揃え */
+.q6__middlized_box_wrapper {
+  display: table;
+  text-align: center;
+}
+.q6__middlized_box {
+  display: table-cell; 
+  vertical-align: middle;
+}
+.q6__middlized_box__cell {
+  display: inline-block;
+  padding: 10px;
+  background-color: #fff;
+}
+
+/* flexbox による天地左右中央揃え */
+.q6__flex_box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.q6__flex_box__text {
+  display: inline-block;
+  padding: 10px;
+  background-color: #fff;
+}
+
+/* marginを使った天地左右中央揃え */
+.q6__with_margin_wrapper {
+  position: relative;
+}
+.q6__with_margin {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  width: 110px;
+  height: 30px;
+  margin: auto;
+}
+
+/* transformを使った天地左右中央揃え */
+.q6__with_transform_wrapper {
+  position: relative;
+}
+.q6__with_transform {
+  position: absolute;
+  padding: 10px;
+  top: 50%;
+  left: 50%;
+  transform: translateY(-50%) translateX(-50%);
+}
+
+
 /* 回答はここに書いてね */
