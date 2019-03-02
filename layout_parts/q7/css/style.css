@@ -2,15 +2,15 @@
 
 /* 回答はここに書いてね */
 
+.font_size--common {
+  font-size: 16px;
+}
+
 /* q7-1 -- float での横並び */
 .clearfix::after {
   content: "";
   display: block;
   clear: both; 
-}
-
-.q7-1_wrapper {
-  font-size: 16px;
 }
 
 .box--float_left {
@@ -37,9 +37,24 @@
   display: table-cell;
   width: 225px;
   vertical-align: middle;
-  font-size: 16px;
 }
 .q7-2_table__cell:last-of-type {
   padding-left: 50px;
 }
+
+/* q7-3 -- inline-blockでの横並び */
+.q7-3_inline_block {
+  letter-spacing:  -.4em;
+}
+.q7-3_inline_block__elem {
+  display: inline-block;
+  box-sizing: border-box;
+  width: 225px;
+  vertical-align: middle;
+  letter-spacing: normal;
+}
+.q7-3_inline_block__elem:last-of-type {
+  margin-left: 50px;
+}
+
 /* 回答はここに書いてね */
