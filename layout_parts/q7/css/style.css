@@ -2,7 +2,7 @@
 
 /* 回答はここに書いてね */
 
-/* float での横並び */
+/* q7-1 -- float での横並び */
 .clearfix::after {
   content: "";
   display: block;
@@ -25,4 +25,21 @@
   margin-left: 50px;
 }
 
+/* q7-2 -- tableでの横並び */
+.q7-2_table {
+  display: table;
+  /* 以下のプロパティは、それぞれのセルの枠の間隔を一括で決める
+  ものなので今回は不適 */
+  /* border-collapse: separate; */
+  /* border-spacing: 50px 0; */
+}
+.q7-2_table__cell {
+  display: table-cell;
+  width: 225px;
+  vertical-align: middle;
+  font-size: 16px;
+}
+.q7-2_table__cell:last-of-type {
+  padding-left: 50px;
+}
 /* 回答はここに書いてね */
