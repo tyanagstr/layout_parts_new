@@ -1,5 +1,61 @@
 @charset "UTF-8";
-
 /* 回答はここに書いてね */
+
+/* q8-1 -- ボタンパーツ */
+
+.q8__btn {
+  display: inline-block;
+  margin-left: 10px;
+}
+
+.q8__btn:first-of-type {
+  margin-left: 0;
+}
+
+.btn--is_small {
+  border-radius: 3px;
+  font-size: 16px;
+  height: 26px;
+  line-height: 26px;
+  padding: 0 15px;
+}
+
+.btn--is_middle {
+  border-radius: 5px;
+  font-size: 20px;
+  height: 32px;
+  line-height: 32px;
+  padding: 0 20px;
+}
+
+.btn--is_large {
+  border-radius: 7px;
+  font-size: 24px;
+  height: 38px;
+  line-height: 38px;
+  padding: 0 25px;
+}
+
+.btn--is_common {
+  background-color: #00bcd4;
+  color: #fff;
+}
+
+.btn--is_error {
+  background-color: #ff4081;
+  color: #fff;
+}
+
+.btn--is_disabled {
+  background-color: #e5e5e5;
+  color: #fff;
+}
+
+.btn--is_shadow {
+  background-color: #fff;
+  color: #222;
+  text-shadow: 0 1px 6px rgba(0, 0, 0, .12);
+  box-shadow: 0 1px 6px rgba(0, 0, 0, .12);
+}
 
 /* 回答はここに書いてね */
