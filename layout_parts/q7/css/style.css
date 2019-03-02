@@ -57,4 +57,17 @@
   margin-left: 50px;
 }
 
+/* q7-4 -- flexでの横並び */
+.q7-4_flexbox {
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-end; /* 並びの縦の位置を最後の要素の下端で揃える */
+  width: 100%;
+}
+
+.q7-4_flexbox__child {
+  box-sizing: border-box;
+  width: 225px;
+}
+
 /* 回答はここに書いてね */
