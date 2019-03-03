@@ -99,7 +99,78 @@
           <!-- 回答はここに書いてね -->
           <!-- すでについてるクラスにはstyleを指定しない。styleを付ける場合は自分で新たにクラスをつけること -->
           <div class="q8">
-            
+            <form action="#" class="form_exercise">
+              <div class="form_exercise__title">
+                <h1 class="form_exercise__title__heading">Form Exercise</h1>
+              </div>
+              <div class="form_exercise__content">
+                <div class="form_exercise__left form_left_blk">
+                  <div class="form_left_blk__name">
+                    <p class="form_left_blk__title form_left_blk__title--required">名前</p>
+                    <div class="form_left_blk__content">
+                      <input class="form_left_blk__input form_exercise_input form_exercise_input--init" type="text" id="name" name="name" required>
+                    </div>
+                  </div>
+                  <div class="form_left_blk__gender">
+                    <p class="form_left_blk__title">性別</p>
+                    <div class="form_left_blk__content">
+                      <label class="form_left_blk__radio_label">
+                        <input type="radio" class="form_left_blk__radio" name="gender" id="gender" value="male" checked>
+                        <span class="form_left_blk__radio_text">男性</span>
+                      </label>
+                      <label class="form_left_blk__radio_label">
+                        <input type="radio" class="form_left_blk__radio" name="gender" id="gender" value="female">
+                        <span class="form_left_blk__radio_text">女性</span>
+                      </label>
+                    </div>
+                  </div>
+                  <div class="form_left_blk__from">
+                    <p class="form_left_blk__title">出身</p>
+                    <div class="form_left_blk__content">
+                      <div class="form_left_blk__select_wrapper">
+                        <select id="from" name="from" class="form_left_blk__select form_exercise_input--init">
+                          <option value="東京" selected>東京</option>
+                          <option value="埼玉">埼玉</option>
+                          <option value="神奈川">神奈川</option>
+                          <option value="千葉">千葉</option>
+                        </select>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="form_left_blk__email">
+                    <p class="form_left_blk__title form_left_blk__title--required">Eメール</p>
+                    <div class="form_left_blk__content">
+                      <input type="email" class="form_left_blk__email_input form_exercise_input form_exercise_input--init" id="email" name="email" placeholder="ex) hoge@gmail.com" required>
+                    </div>
+                  </div>
+                  <div class="form_left_blk__phone_num">
+                    <p class="form_left_blk__title">電話番号</p>
+                    <div class="form_left_blk__content">
+                      <input type="tel" class="form_left_blk__tel form_exercise_input form_exercise_input--init" name="tel" id="tel" placeholder="ex) 08012345678">
+                    </div>
+                  </div>
+                  <div class="form_left_blk__is_over_20">
+                    <p class="form_left_blk__title"></p>
+                    <div class="form_left_blk__content">
+                      <label class="form_left_blk__check_label" name="is_over_20">
+                        <input type="checkbox" name="twenty" id="twenty" class="form_left_blk__check">
+                        <span class="form_left_blk__check_text">20歳以上です</span>
+                      </label>
+                    </div>
+                  </div>
+                  <div class="form_left_blk__submit">
+                    <p class="form_left_blk__title"></p>
+                    <div class="form_left_blk__content">
+                      <button id="submit" class="form_left_blk__btn q8__btn btn--is_common btn--is_small form_exercise_input--init">送信</button>
+                    </div>
+                  </div>
+                </div>
+                <div class="form_right_blk">
+                  <textarea class="form_right_blk__textarea form_exercise_input form_exercise_input--init" id="other" cols="30" rows="10"
+                  placeholder="何かあれば入力してください。"></textarea>
+                </div>
+              </div>
+              </form>
           </div>
           <!-- 回答はここに書いてね -->
         </div>
