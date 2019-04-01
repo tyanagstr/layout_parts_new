@@ -10,12 +10,12 @@
   background-color: #eff3f4;
 }
 
-.q2__image--left_top {
+.q2__image--left {
   float: left;
   margin: 0 20px 10px 0;
 }
 
-.q2__image--right_bottom {
+.q2__image--right {
   float: right;
   margin: 0 0 10px 20px;
 }
