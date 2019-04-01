@@ -22,8 +22,9 @@
 }
 
 /* 見出しのスタイル */
-.q3__table__header__row > th,
-.q3__table__body__row > th {
+.q3__table__header__row th,
+.q3__table__body__row th,
+.q3__table__footer__row th {
   background-color: #2244aa;
   font-size: 18px;
   line-height: 26px;
@@ -37,13 +38,12 @@
 }
 
 /* ボディの偶数行に色を付ける */
-.q3__table__body__row:nth-of-type(even) {
+.q3__table__body__row:nth-child(even) {
   background-color: #ecf1f2
 }
 
 /* 最終行の上を点線に */
-.q3__table__body
-.q3__table__body__row:last-child {
+.q3__table__footer__row {
   border-top: 2px dashed #000;
 }
 
