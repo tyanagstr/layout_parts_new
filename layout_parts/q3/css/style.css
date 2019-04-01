@@ -16,7 +16,6 @@
 /* セル共通の設定 */
 .q3__table th,
 .q3__table td {
-  line-height: 26px;
   padding: 10px;
   border: 1px solid #dedede;
   vertical-align: middle;
@@ -27,7 +26,14 @@
 .q3__table__body__row > th {
   background-color: #2244aa;
   font-size: 18px;
+  line-height: 26px;
   color: #fff;
+}
+
+/* データセルのスタイル */
+.q3__table__body__row > td {
+  font-size: 16px;
+  line-height: 22px;
 }
 
 /* ボディの偶数行に色を付ける */
