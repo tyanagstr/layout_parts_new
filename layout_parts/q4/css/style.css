@@ -10,25 +10,25 @@
   width: 100%;
 }
 
-.content-block,
-.content-block2 {
+.content-block {
   display: table;
   width:100%;
-}
-.content-block {
   margin-bottom: 20px;
 }
+.content-block:last-child {
+  margin-bottom: 0;
+}
 
-.content-block__box,.content-block2__box {
+.content-block__box {
   display: table-cell;
   text-align: center;
   padding: 20px;
 }
 
-.content-block__box--fiexd {
+.content-block__box--fixed_100 {
   width: 100px;
 }
-.content-block2__box--fiexd {
+.content-block__box--fixed_500 {
   width: 500px;
   min-width: 0;
 }
@@ -45,15 +45,15 @@
   background-color: #b6d8ed;  
 }
 
-.content-block2__box--yellow {
+.content-block__box--yellow {
   background-color: #e5d32e;  
 }
 
-.content-block2__box--red {
+.content-block__box--red {
   background-color: #ec8f9a;  
 }
 
-.content-block2__box--green {
+.content-block__box--green {
   background-color: #8fdcad;  
 }
 /* 回答はここに書いてね */
