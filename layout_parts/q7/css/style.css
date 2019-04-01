@@ -13,15 +13,13 @@
   clear: both;
 }
 
-.box--float_left {
+.box--float {
   box-sizing: border-box;
   width: 225px;
   float: left;
 }
 
-.box--float_right {
-  box-sizing: border-box;
-  width: 225px;
+.box--float:last-child {
   float: right;
   margin-left: 50px;
 }
@@ -49,10 +47,11 @@
 /* q7-3 -- inline-blockでの横並び */
 
 .q7-3_inline_block {
-  letter-spacing: -.4em;
+  font-size: 0;
 }
 
 .q7-3_inline_block__elem {
+  font-size: 16px;
   display: inline-block;
   box-sizing: border-box;
   width: 225px;
@@ -82,24 +81,27 @@
 /* q7-5 -- inline-blockとmarginでの横並び */
 
 .q7-5_inline_block_margin {
-  letter-spacing: -.4em;
+  font-size: 0;
 }
 
-.q7-5_inline_block_margin__left {
+.q7-5_inline_block_margin__box {
   box-sizing: border-box;
   letter-spacing: normal;
   display: inline-block;
+}
+
+.q7-5_inline_block_margin__box--fix_300 {
   width: 300px;
 }
 
-.q7-5_inline_block_margin__right {
-  display: inline-block;
-  box-sizing: border-box;
-  letter-spacing: normal;
-  vertical-align: top;
+.q7-5_inline_block_margin__box--variable {
   margin-left: -300px;
   padding-left: 350px;
   width: 100%;
+  vertical-align: top;
+}
+.q7__box__text {
+  font-size: 16px;
 }
 
 /* 回答はここに書いてね */
