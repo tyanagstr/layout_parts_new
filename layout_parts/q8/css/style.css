@@ -54,8 +54,8 @@
 .btn--is_shadow {
   background-color: #fff;
   color: #222;
-  text-shadow: 0 1px 6px rgba(0, 0, 0, .12);
-  box-shadow: 0 1px 6px rgba(0, 0, 0, .12);
+  box-shadow: 0 1px 6px rgba(0, 0, 0, .12),
+   0 1px 4px rgba(0, 0, 0, .12);
 }
 
 /* q8-2 -- フォーム */
@@ -194,14 +194,14 @@
   content: "";
   position: absolute;
   display: inline-block;
-  width: 14px;
-  height: 20px;
-  top: -10px;
-  left: -20px;
+  width: 10px;
+  height: 16px;
+  top: -6px;
+  left: -14px;
   vertical-align: center;
   transform: rotate(45deg);
-  border-bottom: 2px solid #00bcd4;
-  border-right: 2px solid #00bcd4;
+  border-bottom: 3px solid #00bcd4;
+  border-right: 3px solid #00bcd4;
 }
 
 .form_left_blk__btn {
@@ -220,6 +220,7 @@
 }
 
 .form_left_blk__radio_label {
+  display: inline-block;
   cursor: pointer;
 }
 
