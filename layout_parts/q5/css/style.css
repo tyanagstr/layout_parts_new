@@ -14,74 +14,74 @@
   width: 100px;
   height: 100px;
   /* フォントの設定 */
-  font-size: 26px;
+  font-size: 30px;
   font-weight: bold;
   line-height: 100px;
   text-align: center;
 }
 
-.q5_content__box--1 {
+.q5_content__box--is_1 {
   top: 40px;
   left: 200px;
   z-index: 1;
 }
 
-.q5_content__box--2 {
+.q5_content__box--is_2 {
   top: 120px;
   left: 280px;
   z-index: 2;
 }
 
-.q5_content__box--3 {
+.q5_content__box--is_3 {
   top: 200px;
   left: 360px;
   z-index: 3;
 }
 
-.q5_content__box--4 {
+.q5_content__box--is_4 {
   top: 280px;
   left: 280px;
   z-index: 4;
 }
 
-.q5_content__box--5 {
+.q5_content__box--is_5 {
   top: 360px;
   left: 200px;
   z-index: 5;
 }
 
-.q5_content__box--6 {
+.q5_content__box--is_6 {
   top: 280px;
   left: 120px;
   z-index: 6;
 }
 
-.q5_content__box--7 {
+.q5_content__box--is_7 {
   top: 200px;
   left: 40px;
   z-index: 7;
 }
 
-.q5_content__box--8 {
+.q5_content__box--is_8 {
   top: 120px;
   left: 120px;
   z-index: 8;
 }
 
 /* 重なり部分の矩形 */
-.q5_content__box--8::after {
+.q5_content__box--is_8::after {
   content: "";
   display: block;
   position: absolute;
-  top: 0px;
-  left: 80px;
+  top: 0;
+  right: 0;
   width: 20px;
   height: 20px;
   background-color: #ffefd3;
   z-index: 8;
 }
 
-.q5_content__box--9 {
+.q5_content__box--is_9 {
   position: fixed;
   top: 10px;
   left: 10px;
@@ -95,7 +95,7 @@
   background-color: #9fd6d2;
 }
 
-.q5_content__box--light_orange {
+.q5_content__box--light-orange {
   background-color: #ffefd3;
 }
 
@@ -107,7 +107,7 @@
   background-color: #8b7a5e;
 }
 
-.q5_content__box--light_yellow {
+.q5_content__box--light-yellow {
   background-color: #fffee4;
 }
 
