@@ -10,7 +10,7 @@
 .q6__box.q6__box_wrapper {
   text-align: center;
 }
-.q6__box_text {
+.q6__box__text--pos_left {
   display: inline-block;
   background-color: var(--subbox-color);
   text-align: center;
@@ -19,11 +19,11 @@
 }
 
 /* marginによる左右中央揃え */
-.q6__box__text {
+.q6__box__text--pos_right {
   padding: 10px 0;
   text-align: center;
   width: 90px;
-  margin: auto; /* 固定幅のインライン要素に対して auto を設定して中央揃え */
+  margin: 0 auto; /* 固定幅のインライン要素に対して auto を設定して中央揃え */
   background-color: var(--subbox-color);
 }
 
@@ -31,7 +31,6 @@
 /* display:table による天地左右中央揃え */
 .q6__middlized_box_wrapper {
   display: table;
-  text-align: center;
 }
 .q6__middlized_box {
   display: table-cell; 
